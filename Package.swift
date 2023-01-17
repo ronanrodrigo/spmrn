@@ -13,106 +13,106 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "glog",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/glog.xcframework.zip",
-            checksum: "73412aeb1ca67b97185aff283a5c46def3416abcebd3c06f0b59e0761e7c1711"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/glog.xcframework.zip",
+            checksum: "1b710e88181d114a13ccbf63df900198a8a101438ab7c1f6b8fbada47788d5f5"),
         .binaryTarget(
             name: "CoreModules",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/CoreModules.xcframework.zip",
-            checksum: "93260910f37ef7bc019b5442f3172afa02c9298025df2b21177ed70df00e5491"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/CoreModules.xcframework.zip",
+            checksum: "c41b0c0c25aa2aea53fb2dc31128d922feb26780a1c478a9bfafb2e455d26bbf"),
         .binaryTarget(
             name: "jsinspector",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/jsinspector.xcframework.zip",
-            checksum: "b320b417761c2104652483842bd88c16846bc403e2a5edba305d764d8dbfdf92"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/jsinspector.xcframework.zip",
+            checksum: "ff6be90a2b1e5c3e3847b0735aff0ab114411e762128f544ba66342e470c7ea8"),
         .binaryTarget(
             name: "ReactCommon",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/ReactCommon.xcframework.zip",
-            checksum: "7df30092cfaeea0946a4b69a69597357e7a9307f75133b351634bb1b439f162b"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/ReactCommon.xcframework.zip",
+            checksum: "7816ada25b549b46cab32f2e218a1b2cc8d527b95947a305fb144b5993306666"),
         .binaryTarget(
             name: "RCTBlob",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/RCTBlob.xcframework.zip",
-            checksum: "48bf612032016b3be8464f6bee187bbcf8761937001b6091d63989351dfca367"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/RCTBlob.xcframework.zip",
+            checksum: "ab00e06c9a1d65c8d3eb72024e4a8d268175dc2479c862433978951b40e70ed1"),
         .binaryTarget(
             name: "RCTImage",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/RCTImage.xcframework.zip",
-            checksum: "e1a7ab85f93096aa673ded409fd58f10d1ee332a54a7ab5d19f28a07223ef864"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/RCTImage.xcframework.zip",
+            checksum: "417050c0443add4eb097d8ccc98460c20b9cd63a5859f638d235d4b517757ac9"),
         .binaryTarget(
             name: "jsireact",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/jsireact.xcframework.zip",
-            checksum: "8e7e0b2f2b02afb8b6df09a8576df78d0302d401a3dbf9eaa03039c5c925cfe2"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/jsireact.xcframework.zip",
+            checksum: "d879eebca1ee32f563ea83d6ad854b822b5da61d5006d4f08a9a6d439e929fa6"),
         .binaryTarget(
             name: "RCTLinking",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/RCTLinking.xcframework.zip",
-            checksum: "a5381822c3439e89c3566df06b451bac3bb53901d37ee86234a7b0c8ca53f148"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/RCTLinking.xcframework.zip",
+            checksum: "921e93f2f3a0cbc6e8326ca1815f54540a7e2f7ed186af5fcab0b8bab3ea06f0"),
         .binaryTarget(
             name: "fmt",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/fmt.xcframework.zip",
-            checksum: "bc61e48af3fe0a06649b1d9091066c5a1d5e80e97a6c3090ebc38e51ed2eaa11"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/fmt.xcframework.zip",
+            checksum: "c626bd5e2ab359969d54fa37f068a46d2d38a764b30ff4a80478d8e5f3e2a2ad"),
         .binaryTarget(
             name: "RCTVibration",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/RCTVibration.xcframework.zip",
-            checksum: "f516c116d4a7e5a54031b78dd67a03ef38bbf82bd6ae761764d1b2310edc4a3e"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/RCTVibration.xcframework.zip",
+            checksum: "a1823fc50bb7a89968e786295badc4ce62df733013ac95b4ab853c84748aa4c4"),
         .binaryTarget(
             name: "React",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/React.xcframework.zip",
-            checksum: "9313881d10955e03832012a30e59b21272716c6481cd476c2943d5d94e7063ff"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/React.xcframework.zip",
+            checksum: "8fa7eb6028616fed8516bf0435a0f3b97edc8c84b805766050f1c7d9d736eee2"),
         .binaryTarget(
             name: "yoga",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/yoga.xcframework.zip",
-            checksum: "63093ece8fbdb1dc64890bc14a5a98e4a84ff70e96d7f22a59d4bc7978c9de33"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/yoga.xcframework.zip",
+            checksum: "b715094cab07a0f55bc8a8e8cff8628a5a6de3e90118d9d198b05a81122bbb3f"),
         .binaryTarget(
             name: "RCTAnimation",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/RCTAnimation.xcframework.zip",
-            checksum: "ad0651dcdeee32f5a0b23fccd0ab70cd45bb7597acd346067bb7a099db32f862"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/RCTAnimation.xcframework.zip",
+            checksum: "7a9423db52c35e99735b5986d0a6dcb20b464b4db1b8991af6b0d69a833ba34c"),
         .binaryTarget(
             name: "RCTTypeSafety",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/RCTTypeSafety.xcframework.zip",
-            checksum: "5d11dc8617059c5eaa073608ab809d47fb0a8ea3071d9a7b032bb7c665932456"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/RCTTypeSafety.xcframework.zip",
+            checksum: "aa51fc78db22fc76c1a72624e166660bd128b63b5c154d2f6aa6ad82bc31a8dd"),
         .binaryTarget(
             name: "RCTText",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/RCTText.xcframework.zip",
-            checksum: "fc08a53a2ff1f32855d14e14e9faa264d0b8fc77dff8162b770fcccb3101d580"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/RCTText.xcframework.zip",
+            checksum: "5718520e4e6970878927478527f3f51f0ca7c81ba4e0e8038764bb828b6a1996"),
         .binaryTarget(
             name: "cxxreact",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/cxxreact.xcframework.zip",
-            checksum: "d0aacf499fab64ea464a8b2901a4d1333b0b3395a489ae121dea76613915a359"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/cxxreact.xcframework.zip",
+            checksum: "ec627e20f7b99d1e4fd3d51cdb92b088d3d9ccd240a389ead8ced9b5eaf1e834"),
         .binaryTarget(
             name: "RCTNetwork",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/RCTNetwork.xcframework.zip",
-            checksum: "e9ce70352a1bd73cc267ce9e83f2efada79a811822c36bdc77c21238d7829b74"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/RCTNetwork.xcframework.zip",
+            checksum: "fbdfe714edb350fa97696e96546a112535b3a4477ce7b09888ce58b6680f4e42"),
         .binaryTarget(
             name: "RCTSettings",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/RCTSettings.xcframework.zip",
-            checksum: "7ce842ba3d7f6741b24c311aaf1d7e6339f3fab14031936fd7f08b6e646c676f"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/RCTSettings.xcframework.zip",
+            checksum: "b14c312c1abad3947da1e541d7ad7f4994766a48e56d388615edd95a1c38ae9a"),
         .binaryTarget(
             name: "jsi",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/jsi.xcframework.zip",
-            checksum: "a14a3a37b76f6df14c9e834d6d1564dd3cc23b85ae0d4ba78e8320435cc04f51"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/jsi.xcframework.zip",
+            checksum: "51676dbe11f1d7b732d21a5008a23c5f2dbdadd47573495c27115f061d29fa03"),
         .binaryTarget(
             name: "React_Codegen",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/React_Codegen.xcframework.zip",
-            checksum: "aa1be645023691aef4b4e0148bf4f43d3a637dcf8d53647ceb55edd936418375"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/React_Codegen.xcframework.zip",
+            checksum: "56b0a03d98e32b53cfc95cf6c655d445a369e81d2a2ca873c717b5450c3110e1"),
         .binaryTarget(
             name: "folly",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/folly.xcframework.zip",
-            checksum: "1f2ee3f6b632f40a590d98da0f31390e47c86990916cac886f4f168ad95ee673"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/folly.xcframework.zip",
+            checksum: "20943d4749d0486eb8e0a5af24b2d07f0e459019a5f7b784b144c716493eb051"),
         .binaryTarget(
             name: "react_bridging",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/react_bridging.xcframework.zip",
-            checksum: "42822f24541df10214f61c9d10d463ac44871fb66cabd1cf292905cfb515156c"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/react_bridging.xcframework.zip",
+            checksum: "cb8f278fe506fbf8dc30269f9f911ce73cd648369d82ac4e6a3c64a7aef63afc"),
         .binaryTarget(
             name: "reactperflogger",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/reactperflogger.xcframework.zip",
-            checksum: "e910bf75767df3892ddf2788431a2c30e54c6dc27fc658c862f8816689c51520"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/reactperflogger.xcframework.zip",
+            checksum: "ad31b9f82d75fc77f01341785f492f36d94e2e1b70da57839fc446634da66255"),
         .binaryTarget(
             name: "logger",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/logger.xcframework.zip",
-            checksum: "0dd3a4f68f7c431a458f3ce5e1be707131bd84de6245c7c85d901ae243fbee3b"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/logger.xcframework.zip",
+            checksum: "a59477043d87a431ecd6d5a0b0754f4841620c6388d888d4cb348bc36be1143e"),
         .binaryTarget(
             name: "DoubleConversion",
-            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.1/DoubleConversion.xcframework.zip",
-            checksum: "ab35a45ffb6f087c1c5c6615397fee39a9d3fd13f9f3671f65fbb73a4b644a4a"),
+            url: "https://github.com/ronanrodrigo/spmrn/releases/download/0.0.5/DoubleConversion.xcframework.zip",
+            checksum: "38316abe828bd52ba10e409582c067d9175db38b863fa09627b3b980176880a3"),
         .target(
             name: "spmrn",
-            dependencies: [])
+            dependencies: []),
     ]
 )
