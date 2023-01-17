@@ -113,6 +113,6 @@ let package = Package(
             checksum: "ab35a45ffb6f087c1c5c6615397fee39a9d3fd13f9f3671f65fbb73a4b644a4a"),
         .target(
             name: "spmrn",
-            dependencies: [])
+            dependencies: []),
     ]
 )
